@@ -4,3 +4,9 @@
 > Want to try and simplify it and target my workflow
 
 Blender blugin is in plugin folder, the lib is the bevy plugin.
+
+
+
+## Docs
+
+- [Python Setup](./docs/python-setup.md)

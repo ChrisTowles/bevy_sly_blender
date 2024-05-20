@@ -1,0 +1,32 @@
+[project]
+name = "bevy_sly_blender"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Patrick Towles", email = ""}]
+readme = "readme.md"
+
+
+[build-system]
+requires = ["setuptools]
+build-backend = "setuptools.build_meta"
+
+
+[tool.isort]
+profile = "black"
+
+
+[project.scripts] # after any update run "pip install --editable ."
+sly = "plugin.something:main"
+
+
+[tool.setuptools]
+package-dir = { "" = "plugin"}
+
+
+
+
+
+# to install this package into an enviroment
+#   pip install --editable .
+# to uninstall
+#   pip uninstall bevy_sly_blender
